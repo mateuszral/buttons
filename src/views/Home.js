@@ -30,8 +30,8 @@ const Wrapper = styled.div`
 
 const Home = () => (
   <div>
-    <h1>Buttons</h1>
     <Wrapper>
+      <h1>Buttons</h1>
       <div>
         <div>
           <span>&lt;Button /&gt;</span>
@@ -162,6 +162,9 @@ const Home = () => (
           </Button>
         </div>
       </div>
+      <span>
+        Created by <i>Mateusz Ral</i>
+      </span>
     </Wrapper>
   </div>
 );
