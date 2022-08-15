@@ -16,21 +16,19 @@ export const colors = {
   grey300: 'hsl(0, 0%, 87%)',
   grey400: 'hsl(0, 0%, 91%)',
   grey500: 'hsl(0, 0%, 97%)',
-  primary: '#FFD226',
+  default: '#3F3F3F',
+  primary: '#2962FF',
+  secondary: '#455A64',
+  danger: '#D32F2F',
 };
 
 export const font = {
   size: {
-    bigHeader: '10rem',
-    header: '4.8rem',
-    articleHeader: '2.6rem',
-    logo: '2rem',
-    infoParagraph: '1.8rem',
     paragraph: '1.6rem',
-    button: '1.3rem',
+    button: '1.4rem',
   },
   weight: {
-    regular: '400',
+    regular: '500',
     bold: '700',
   },
 };
